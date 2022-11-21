@@ -8,10 +8,10 @@ function NavBar() {
     }
 
   return (
-    <div>
+    <div className='fixed top-0 left-0 right-0'>
       <div className='
                 flex justify-between items-center
-                h-[10vh] bg-black text-white'>
+                h-[8vh] bg-black text-white'>
            <h1 className='pl-4'>Elizabeth Goullaud  </h1>   
             <ul className='hidden md:flex justify-around md:w-[50%]'>
                 <li>Home</li>
