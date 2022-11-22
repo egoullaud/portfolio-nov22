@@ -3,7 +3,7 @@ import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 
 function Footer() {
   return (
-    <div className='fixed left-0 bottom-7 right-0 w-[100%]'>
+    <div className='fixed left-0 bottom-0 right-0 w-[100%]'>
          <div className='
     flex justify-between items-center
     h-[3vh] bg-black text-white'>

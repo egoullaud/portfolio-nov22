@@ -18,7 +18,7 @@ function NavBar() {
                 <li>Projects</li>
                 <li>Stack</li>
                 <li>About</li>
-                <button>Resume</button>
+                <button className='bg-[#69a1ac] py-1 px-4 rounded-md shadow-md hover:bg-[#89c5cc]  hover:scale-100 hover:duration-300 hover:ease-in-out'>Resume</button>
             </ul>  
             <div onClick={handleNav} className='block md:hidden p-6 ease-in-out duration-500'>
                 {!nav ? <AiOutlineMenu size={20}/> : <AiOutlineClose size={20}/> }
@@ -31,7 +31,7 @@ function NavBar() {
                     <li className='p-4 mx-2  border-b-2 border-gray-200 hover:scale-105 hover:duration-300 hover:ease-in-out '>Stack</li>
                     <li className='p-4 mx-2  border-b-2 border-gray-200 hover:scale-105 hover:duration-300 hover:ease-in-out '>About</li>
                     <li className='p-4 mx-2  hover:scale-105 hover:duration-300 hover:ease-in-out '>
-                        <button className='bg-[#89c5cc] py-1 px-4 rounded-md shadow-md hover:bg-[#69a1ac] hover:scale-100 hover:duration-300 hover:ease-in-out'>Resume</button>
+                        <button className='bg-[#69a1ac] py-1 px-4 rounded-md shadow-md hover:bg-[#89c5cc]  hover:scale-100 hover:duration-300 hover:ease-in-out'>Resume</button>
                         </li>
                 </ul>  
             </div>
