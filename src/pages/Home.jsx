@@ -1,12 +1,7 @@
 import React from 'react'
-import NavBar from '../components/NavBar'
-import {AiFillHome, AiOutlineDown} from 'react-icons/ai'
+import {AiFillHome} from 'react-icons/ai'
 import {BiWorld} from 'react-icons/bi'
-import {BsMouse} from 'react-icons/bs'
-
-import ink3 from '../assets/ink3.mp4'
 import ink3Short from '../assets/ink3short.mp4'
-import Footer from '../components/Footer'
 import Projects from '../components/Projects'
 
 function Home() {
