@@ -7,6 +7,9 @@ function Contact() {
         <h1 className='text-center text-white font-bold text-2xl mt-[4rem]'>Contact Me</h1>
 
         <form action="https://formsubmit.co/aa9ace4fce53046497cccee0c34e5c3f " method="POST" className="space-y-8">
+            <input type="text" name="_honey" className="hidden" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="https://egoullaud-portfolio.netlify.app/#home" />
           <div>
               <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-100">Your email</label>
               <input type="email" id="email" name="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 " placeholder="name@email.com" required/>
