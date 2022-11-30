@@ -6,15 +6,16 @@ function Footer() {
     <div className='fixed left-0 bottom-0 right-0 w-[100%]'>
          <div className='
     flex justify-between items-center
-    h-[3vh] bg-black text-white'>
+    h-[4vh] bg-black text-white'>
     
-        <div className='w-[50%]'>
-            <h1 className='pl-4'>Elizabeth Goullaud</h1>
+        <div className='w-[70%]'>
+            <h1 className='pl-4'>Built by Elizabeth Goullaud 2022.</h1>
         </div>
         
         <div className='flex justify-around w-[20%]'>
-                <p><FaLinkedinIn/></p>
-                <p><FaGithub/></p>
+                <p><a href="https://www.linkedin.com/feed/" target='_blank'><FaLinkedinIn/></a></p>
+                <p><a href="https://github.com/egoullaud" target='_blank'><FaGithub/></a></p>
+                
 
         </div>
       </div>
