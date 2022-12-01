@@ -27,8 +27,8 @@ function Home() {
      <div className='flex-col justify-center items-center text-center w-[100%]'>
         <p className='text-xl font-bold'>Passion. Leadership. Vision. Dedication.</p>
         <div className='flex flex-row w-[100%] justify-center mx-auto mt-5'>
-            <button className='mr-5 border-[1px] border-white rounded-md px-2 hover:bg-black hover:text-white hover:scale-110 hover:duration-300 hover:ease-in-out'>About Me</button>
-            <button className='ml-5 border-[1px] border-white rounded-md px-2 hover:bg-black hover:text-white hover:scale-110 hover:duration-300 hover:ease-in-out'>My Work</button>
+            <button className='mr-5 border-[1px] border-white rounded-md px-2 hover:bg-black hover:text-white hover:scale-110 hover:duration-300 hover:ease-in-out'><a href="#about">About Me</a></button>
+            <button className='ml-5 border-[1px] border-white rounded-md px-2 hover:bg-black hover:text-white hover:scale-110 hover:duration-300 hover:ease-in-out'><a href="#projects">My Work</a></button>
         </div>
         <div className='mt-[15vh] text-white flex flex-col justify-center items-center'>
       
