@@ -7,7 +7,7 @@ function About() {
   return (
     <div className='my-[4rem] text-white'>
         <div className=' m-4 '>
-          <h1 className='text-3xl mx-4 md:mx-[4rem] text-center font-bold my-5'>Hi, I'm Elizabeth</h1>
+          <h1 className='text-3xl mx-4 md:mx-[4rem] text-center font-bold my-5 font-Lora'>Hi, I'm Elizabeth</h1>
             
             <div className=' flex flex-col md:flex-row justify-center  md:justify-around items-center m-2 lg:mx-[10rem]'>
                 <div className='flex justify-center items-center  w-[100%] md:w-[40%] overflow-hidden'>  
@@ -36,7 +36,7 @@ function About() {
                 </p>
             </div>
             <div className='flex flex-col justify-center items-center'>
-                <h1 className=' text-xl md:text-2xl mx-4 md:mx-[4rem] text-center lg:mx-[10rem] font-bold italic'> I am looking for a remote or hybrid position in North America 
+                <h1 className=' text-xl md:text-2xl mx-4 md:mx-[4rem] text-center lg:mx-[10rem]  font-Lora italic'> I am looking for a remote or hybrid position in North America 
                         to learn, grow, and build awesome web products.</h1>
                 {/* <button className='mt-5 border-[1px] border-white rounded-md px-2 hover:bg-black hover:text-white hover:scale-110 hover:duration-300 hover:ease-in-out'>Hire Me</button>  */}
             </div>

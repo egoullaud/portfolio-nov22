@@ -4,7 +4,7 @@ import React from 'react'
 function Contact() {
   return (
     <div className='mx-4 md:mx-[10rem] lg:mx-[30rem]'>
-        <h1 className='text-center text-white font-bold text-2xl mt-[4rem]'>Contact Me</h1>
+        <h1 className='text-center text-white font-bold text-2xl mt-[4rem] font-Lora'>Contact Me</h1>
 
         <form action="https://formsubmit.co/aa9ace4fce53046497cccee0c34e5c3f " method="POST" className="space-y-8">
             <input type="text" name="_honey" className="hidden" />

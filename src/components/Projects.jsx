@@ -26,10 +26,10 @@ function Icon({id, open}) {
   }
 
 function Projects() {
-    const [open, setOpen] = useState(0);
+    const [open, setOpen] = useState(1);
  
     const handleOpen = (value) => {
-      setOpen(open === value ? 0 : value);
+        setOpen(open === value ? 0 : value);
     };
 
   return (
@@ -91,8 +91,8 @@ function Projects() {
                 </div>
             {/* ACCORDION  */}
                       <Fragment>
-                            <Accordion open={open === 1} icon={<Icon id={1} open={open}/>}>
-                                <AccordionHeader onClick={() => handleOpen(1)}
+                            <Accordion open={open === 2} icon={<Icon id={1} open={open}/>}>
+                                <AccordionHeader onClick={() => handleOpen(2)}
                                 className='ml-6 w-[90%]'>
                                 Grandma Finch's Maple Syrup
                                 </AccordionHeader>
@@ -130,8 +130,8 @@ function Projects() {
                 </div>
             {/* ACCORDION  */}
                       <Fragment>
-                            <Accordion open={open === 1} icon={<Icon id={1} open={open}/>}>
-                                <AccordionHeader onClick={() => handleOpen(1)}
+                            <Accordion open={open === 3} icon={<Icon id={1} open={open}/>}>
+                                <AccordionHeader onClick={() => handleOpen(3)}
                                 className='ml-6 w-[90%]'>
                                Strolls: a Walking Adventure
                                 </AccordionHeader>
@@ -169,8 +169,8 @@ function Projects() {
                 </div>
             ACCORDION 
                       <Fragment>
-                            <Accordion open={open === 1} icon={<Icon id={1} open={open}/>}>
-                                <AccordionHeader onClick={() => handleOpen(1)}
+                            <Accordion open={open === 4} icon={<Icon id={1} open={open}/>}>
+                                <AccordionHeader onClick={() => handleOpen(4)}
                                 className='ml-6 w-[90%]'>
                                 Raine Gauthier Photography
                                 </AccordionHeader>
@@ -210,8 +210,8 @@ function Projects() {
                 </div>
             {/* ACCORDION  */}
                       <Fragment>
-                            <Accordion open={open === 1} icon={<Icon id={1} open={open}/>}>
-                                <AccordionHeader onClick={() => handleOpen(1)}
+                            <Accordion open={open === 5} icon={<Icon id={1} open={open}/>}>
+                                <AccordionHeader onClick={() => handleOpen(5)}
                                 className='ml-6 w-[90%]'>
                                 Raine Gauthier Photography
                                 </AccordionHeader>

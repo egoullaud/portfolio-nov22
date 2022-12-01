@@ -12,8 +12,8 @@ function NavBar() {
     <div className='fixed top-0 left-0 right-0'>
       <div className='
                 flex justify-between items-center
-                h-[8vh] bg-black text-white'>
-           <h1 className='pl-4'><a href="#home">Elizabeth Goullaud</a></h1>   
+                h-[8vh] bg-black text-white font-Poppins'>
+           <h1 className='pl-4 text-lg italic font-Lora'><a href="#home">Elizabeth Goullaud</a></h1>   
             <ul className='hidden md:flex justify-around md:w-[50%]'>
                 <li className='hover:underline hover:ease-in-out hover:duration-500'><a href="#home">Home</a></li>
                 <li className='hover:underline hover:ease-in-out hover:duration-500'><a href="#projects">Projects</a></li>
