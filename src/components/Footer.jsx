@@ -9,11 +9,11 @@ function Footer() {
     h-[4vh] bg-black text-white'>
     
         <div className='w-[70%]'>
-            <h1 className='pl-4 text-sm'>Built by Elizabeth Goullaud 2022.</h1>
+            <h1 className='pl-4 text-sm'>Built by Lee Goullaud 2022.</h1>
         </div>
         
         <div className='flex justify-around w-[20%]'>
-                <p><a href="https://www.linkedin.com/feed/" target='_blank'><FaLinkedinIn/></a></p>
+                <p><a href="https://www.linkedin.com/in/elizabeth-goullaud/" target='_blank'><FaLinkedinIn/></a></p>
                 <p><a href="https://github.com/egoullaud" target='_blank'><FaGithub/></a></p>
                 
 
