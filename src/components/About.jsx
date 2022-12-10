@@ -30,7 +30,7 @@ function About() {
                     I spent the last decade running a landscaping business, managing client relationships, and designing 
                     beautiful green spaces. Each project was unique to the client's needs, required collaboration and adaptability and resulted in a polished landscape designed to fit my client's needs. 
                     A year ago, I decided to apply these skills to a new venture: web development!
-                     I completed a <a href={cert} target="_blank">certification course for front end development with Skillcrush</a>, and began coding websites for clients on Upwork and through my local network. 
+                     I completed a certification course for front end development with Skillcrush, and began coding websites for clients on Upwork and through my local network. 
                  I decided to test my skillset at the Girl Develop It Hackathon in November 2022, and took Second Place with my kick ass team.
                    
                 </p>
