@@ -13,7 +13,7 @@ function NavBar() {
       <div className='
                 flex justify-between items-center
                 h-[8vh] bg-black text-white font-Poppins'>
-           <h1 className='pl-4 text-lg italic font-Lora'><a href="#home">Elizabeth Goullaud</a></h1>   
+           <h1 className='pl-4 text-lg italic font-Lora'><a href="#home">Lee Goullaud</a></h1>   
             <ul className='hidden md:flex justify-around md:w-[50%]'>
                 <li className='hover:underline hover:ease-in-out hover:duration-500'><a href="#home">Home</a></li>
                 <li className='hover:underline hover:ease-in-out hover:duration-500'><a href="#projects">Projects</a></li>
@@ -25,7 +25,7 @@ function NavBar() {
                 {!nav ? <AiOutlineMenu size={20}/> : <AiOutlineClose size={20}/> }
             </div>
             <div className={!nav ? 'fixed left-[-100%]' : 'z-10 fixed left-0 top-0 bg-white h-[100%] w-[60%] text-black border-r-[1px] border-r-black ease-in-out duration-500'}>
-                <h1 className='pl-4 mb-4 h-[10vh] bg-black text-white flex items-center'><a href="#home">Elizabeth Goullaud</a></h1>   
+                <h1 className='pl-4 mb-4 h-[10vh] bg-black text-white flex items-center'><a href="#home">Lee Goullaud</a></h1>   
                 <ul className='flex flex-col justify-start w-[100%] text-black'>
                     <li className='p-4 mx-2  border-b-2 border-gray-200 hover:scale-105 hover:duration-300 hover:ease-in-out '><a href="#home">Home</a></li>
                     <li className='p-4 mx-2  border-b-2 border-gray-200 hover:scale-105 hover:duration-300 hover:ease-in-out '><a href="#projects">Projects</a></li>
