@@ -34,7 +34,7 @@ function Projects() {
 
   return (
     <div className='
-    flex justify-center items-center
+    flex justify-center items-start
     flex-col 
     md:flex-row md:flex-wrap
     '
