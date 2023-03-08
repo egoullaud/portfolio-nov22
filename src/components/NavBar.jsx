@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
-import resume from '../assets/lee-goullaud-resume.pdf'
+import resume from '../assets/Lee Goullaud 2023.pdf'
 
 function NavBar() {
     const [nav, setNav] = useState(false);
