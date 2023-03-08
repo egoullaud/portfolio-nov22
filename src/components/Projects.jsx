@@ -34,9 +34,10 @@ function Projects() {
 
   return (
     <div className='
-    flex justify-center items-start
+    flex justify-center md:items-start items-center
     flex-col 
     md:flex-row md:flex-wrap
+    h-full
     '
     >
         
@@ -55,7 +56,7 @@ function Projects() {
                                 className='ml-6 w-[90%]'>
                                 Gamerverse API Site
                                 </AccordionHeader>
-                                <AccordionBody className="mx-5 mt-5 w-[90%] h-full  overflow-scroll">
+                                <AccordionBody className="mx-5 mt-5 w-[90%]  overflow-y-scroll">
                                    Multi-page fully responsive website built with the RAWG API to allow user to search video games, see upcoming and popular games, look at games by category and view individual game information.
                                     <br />
                                     <br />
@@ -96,7 +97,7 @@ function Projects() {
                                 className='ml-6 w-[90%]'>
                                 Grandma Finch's Maple Syrup
                                 </AccordionHeader>
-                                <AccordionBody className="mx-5 mt-5 w-[90%] h-full  overflow-scroll">
+                                <AccordionBody className="mx-5 mt-5 w-[90%] overflow-y-scroll">
                                         This site was built as a prototype for a mom and pop maple syrup business. The client's main goal was to have a site for customers to view their products, learn about the company's story, and contact the seller.   
                                     <br />
                                     <br />
@@ -135,7 +136,7 @@ function Projects() {
                                 className='ml-6 w-[90%]'>
                                Strolls: a Walking Adventure
                                 </AccordionHeader>
-                                <AccordionBody className="mx-5 mt-5 w-[90%] h-full  overflow-scroll">
+                                <AccordionBody className="mx-5 mt-5 w-[90%] overflow-y-scroll">
                                     This web app was built during the Girl Develop It Hackathon November 16-19 2022 and won Second Place. The concept for the app was to make walking fun and interactive by pairing walking with the thrill of discovery to create a deeper connection to our neighborhoods, leading to a happier, healthier community.
                                     <br />
                                     <br />
@@ -215,7 +216,7 @@ function Projects() {
                                 className='ml-6 w-[90%]'>
                                 Raine Gauthier Photography
                                 </AccordionHeader>
-                                <AccordionBody className="mx-5 mt-5 w-[90%] h-full  overflow-scroll">
+                                <AccordionBody className="mx-5 mt-5 w-[90%] overflow-y-scroll">
                                     A ten-page photography gallery site built by hand for a local artist. The site is fully responsive and features a modal pop-up for easy photo viewing, contact forms, and hover effects over gallery options and buttons.
                                     <br />
                                     <br />
