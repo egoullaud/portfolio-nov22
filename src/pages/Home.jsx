@@ -21,7 +21,7 @@ function Home() {
        
      <div className='flex flex-col justify-center items-center h-[50vh]'>
         <h1 className='text-white mb-5 font-bold text-4xl '> You Dream, I Build.</h1>
-        <h2 className='mb-5 text-2xl font-Lora'> Web Developer </h2>
+        <h2 className='mb-5 text-2xl font-Lora'> Front End Developer </h2>
         <h2 className='flex flex-row font-Lora'> <span className='px-1'><AiFillHome size={22}/></span> Vancouver, BC | <span className='px-1'><BiWorld size={22}/></span>  US/CA citizen </h2>
      </div>
      <div className='flex-col justify-center items-center text-center w-[100%]'>
