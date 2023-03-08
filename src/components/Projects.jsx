@@ -55,7 +55,7 @@ function Projects() {
                                 className='ml-6 w-[90%]'>
                                 Gamerverse API Site
                                 </AccordionHeader>
-                                <AccordionBody className="mx-5 mt-5 w-[90%] h-full">
+                                <AccordionBody className="mx-5 mt-5 w-[90%] h-full  overflow-scroll">
                                    Multi-page fully responsive website built with the RAWG API to allow user to search video games, see upcoming and popular games, look at games by category and view individual game information.
                                     <br />
                                     <br />
@@ -76,7 +76,7 @@ function Projects() {
          {/* buttons section      */}
                     <div className='flex flex-row  justify-around mx-auto pt-5 w-[50%]'>
                         <a target="_blank" href="https://gamerverse.netlify.app/"><button className='border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white hover:duration-300 hover:ease-in-out'>Live Site</button></a>
-                        <a target="_blank" href="https://github.com/egoullaud/game-api"><button className='border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white  hover:duration-300 hover:ease-in-out'>See Code</button></a> 
+                        <a target="_blank" href="https://github.com/egoullaud/game-api"><button className='border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white  hover:duration-300 hover:ease-in-out'>Github</button></a> 
                     </div>
                         
     </div>
@@ -96,8 +96,8 @@ function Projects() {
                                 className='ml-6 w-[90%]'>
                                 Grandma Finch's Maple Syrup
                                 </AccordionHeader>
-                                <AccordionBody className="mx-5 mt-5 w-[90%] h-full">
-                                        This site was built for a mom and pop maple syrup business. The client's main goal was to have a site for customers to view their products, learn about the company's story, and contact the seller    
+                                <AccordionBody className="mx-5 mt-5 w-[90%] h-full  overflow-scroll">
+                                        This site was built as a prototype for a mom and pop maple syrup business. The client's main goal was to have a site for customers to view their products, learn about the company's story, and contact the seller.   
                                     <br />
                                     <br />
                                     TechStack: React, TailwindCSS, ReactTyped, Netlify 
@@ -116,7 +116,7 @@ function Projects() {
          {/* buttons section      */}
                     <div className='flex flex-row  justify-around mx-auto pt-5 w-[50%]'>
                         <a target="_blank" href="https://grandmafinchmaplesyrup.netlify.app/"><button className='border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white hover:duration-300 hover:ease-in-out'>Live Site</button></a>
-                        <a target="_blank" href="https://github.com/egoullaud/gfms-site"><button className='border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white  hover:duration-300 hover:ease-in-out'>See Code</button></a> 
+                        <a target="_blank" href="https://github.com/egoullaud/gfms-site"><button className='border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white  hover:duration-300 hover:ease-in-out'>Github</button></a> 
                     </div>
                         
     </div>
@@ -135,7 +135,7 @@ function Projects() {
                                 className='ml-6 w-[90%]'>
                                Strolls: a Walking Adventure
                                 </AccordionHeader>
-                                <AccordionBody className="mx-5 mt-5 w-[90%] h-full">
+                                <AccordionBody className="mx-5 mt-5 w-[90%] h-full  overflow-scroll">
                                     This web app was built during the Girl Develop It Hackathon November 16-19 2022 and won Second Place. The concept for the app was to make walking fun and interactive by pairing walking with the thrill of discovery to create a deeper connection to our neighborhoods, leading to a happier, healthier community.
                                     <br />
                                     <br />
@@ -154,8 +154,8 @@ function Projects() {
                    
          {/* buttons section      */}
                     <div className='flex flex-row  justify-around mx-auto pt-5 w-[50%]'>
-                        {/* <a target="_blank" href="/"><button className='border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white hover:duration-300 hover:ease-in-out'>Live Site</button></a> */}
-                        <a target="_blank" href="https://github.com/kalikokalikova/adventure"><button className='border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white  hover:duration-300 hover:ease-in-out'>See Code</button></a> 
+                        <a target="_blank" href="https://strolls.netlify.app/"><button className='border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white hover:duration-300 hover:ease-in-out'>Live Site</button></a>
+                        <a target="_blank" href="https://github.com/kalikokalikova/adventure"><button className='border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white  hover:duration-300 hover:ease-in-out'>Github</button></a> 
                     </div>
                         
     </div>
@@ -215,7 +215,7 @@ function Projects() {
                                 className='ml-6 w-[90%]'>
                                 Raine Gauthier Photography
                                 </AccordionHeader>
-                                <AccordionBody className="mx-5 mt-5 w-[90%] h-full">
+                                <AccordionBody className="mx-5 mt-5 w-[90%] h-full  overflow-scroll">
                                     A ten-page photography gallery site built by hand for a local artist. The site is fully responsive and features a modal pop-up for easy photo viewing, contact forms, and hover effects over gallery options and buttons.
                                     <br />
                                     <br />
@@ -237,7 +237,7 @@ function Projects() {
          {/* buttons section      */}
                     <div className='flex flex-row  justify-around mx-auto pt-5 w-[50%]'>
                         <a target="_blank" href="http://rainegauthier.com/"><button className='border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white hover:duration-300 hover:ease-in-out'>Live Site</button></a>
-                        <a target="_blank" href="github.com"><button className='border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white  hover:duration-300 hover:ease-in-out'>See Code</button></a> 
+                        <a target="_blank" href="github.com"><button className='border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white  hover:duration-300 hover:ease-in-out'>Github</button></a> 
                     </div>
                         
     </div>
