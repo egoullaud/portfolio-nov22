@@ -10,6 +10,7 @@ import {
 import gamesDesk from '../assets/games-desk.jpg'
 import gfmsDesk from '../assets/gfms-desk.jpg'
 import strollsDesk from '../assets/strolls-desk.jpg'
+import sixpo from '../assets/sixpo.jpg'
 
 function Icon({id, open}) {
     return (
@@ -40,7 +41,49 @@ function Projects() {
     h-full
     '
     >
-        
+        {/* sixpo */}
+         <div className='bg-white text-black pb-5 m-2 w-[90%] rounded-md shadow-xl
+                md:w-[45%]
+                xl:w-[30%]'>
+                {/* image  */}
+                 <div className='m-2 rounded-lg'>
+                    <a target="_blank" href="https://gamerverse.netlify.app/"><img className='w-[100%] rounded-md' src={sixpo} alt="project" /></a> 
+                </div>
+            {/* ACCORDION  */}
+                      <Fragment>
+                            <Accordion open={open === 5} icon={<Icon id={5} open={open}/>}>
+                                <AccordionHeader onClick={() => handleOpen(5)}
+                                className='ml-6 w-[90%]'>
+                                SIXpo GraphCMS Site
+                                </AccordionHeader>
+                                <AccordionBody className="mx-5 mt-5 w-[90%] overflow-y-scroll">
+                                    Website for a charity event educating disabled folks about sexuality and wellness. I designed the site with Figma, built the front end with React 
+                                    and TailwindCSS, and set up a backend with Hygraph(GraphCMS). I used version control with git and GitHub, and the website is hosted on Netlify. 
+                                    <br />
+                                    <br />
+                                    TechStack: React, TailwindCSS, GraphCMS, GraphQL, Figma, Netlify
+                                    <br />
+                                    <br />
+                                    Challenges: <br/>
+                                        The challenge with this project was all about web accessiblity as it's users are disabled folks who need access to all the information for the event. 
+                                        I used the Web Content Accessibility Guidelines (WCAG) to make sure the website is accessible via screen readers and keyboards. I also learned how to 
+                                        use aria-labels to create clear distinctions between elements. 
+                                    <br />
+                                    <br />
+                                    Future Plans: <br />
+                                    I have volunteered my time to the charity to continue to maintain their website and add new features to it as they need. 
+
+                                  </AccordionBody>
+                            </Accordion>
+                        </Fragment>
+                   
+         {/* buttons section      */}
+                    <div className='flex flex-row  justify-around mx-auto pt-5 w-[50%]'>
+                        <a target="_blank" href="https://sixpo.netlify.app/"><button className='border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white hover:duration-300 hover:ease-in-out'>Live Site</button></a>
+                        <a target="_blank" href="https://github.com/egoullaud/sixpo"><button className='border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white  hover:duration-300 hover:ease-in-out'>Github</button></a> 
+                    </div>
+                        
+    </div>
 {/* card #1 Gamerverse */}
     <div className='bg-white text-black pb-5 m-2 w-[90%] rounded-md shadow-xl
                 md:w-[45%]
@@ -160,47 +203,7 @@ function Projects() {
                     </div>
                         
     </div>
-{/* card #4 PENDING */}
-    {/* <div className='bg-white text-black pb-5 m-2 w-[90%] rounded-md shadow-xl
-                md:w-[45%]
-                xl:w-[30%]'>
-                image 
-                 <div className='m-2 rounded-lg'>
-                    <a target="_blank" href="http://rainegauthier.com/"><img className='w-[100%] rounded-md' src={RaineDesk} alt="project" /></a> 
-                </div>
-            ACCORDION 
-                      <Fragment>
-                            <Accordion open={open === 4} icon={<Icon id={1} open={open}/>}>
-                                <AccordionHeader onClick={() => handleOpen(4)}
-                                className='ml-6 w-[90%]'>
-                                Raine Gauthier Photography
-                                </AccordionHeader>
-                                <AccordionBody className="mx-5 mt-5 w-[90%] h-full">
-                                    A ten-page photography gallery site built by hand for a local artist. The site is fully responsive and features a modal pop-up for easy photo viewing, contact forms, and hover effects over gallery options and buttons.
-                                    <br />
-                                    <br />
-                                    TechStack: HTML, CSS, JavaScript 
-                                    <br />
-                                    <br />
-                                    Challenges: <br/>
-                                    The main challenge was design. I love to build websites, but designing them is another beast altogether! Luckily, my client was happy to discuss design ideas and we came up with a beautiful concept together. <br /><br />
-                                    Technical challenges were mostly the learning curve of using modals, and state changes with JavaScript. I spent a lot of time on StackOverflow and Youtube troubleshooting ideas and learning. 
-                                    <br />
-                                    <br />
-                                    Future Plans: <br />
-                                    Next steps would be throwing the site together with Next.js, TailwindCSS, and utilizing a headless CMS like GraphQL so the client can add new photos as their business grows.
 
-                                  </AccordionBody>
-                            </Accordion>
-                        </Fragment>
-                   
-         buttons section     
-                    <div className='flex flex-row  justify-around mx-auto pt-5 w-[50%]'>
-                        <a target="_blank" href="http://rainegauthier.com/"><button className='border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white hover:duration-300 hover:ease-in-out'>Live Site</button></a>
-                        <a target="_blank" href="github.com"><button className='border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white  hover:duration-300 hover:ease-in-out'>See Code</button></a> 
-                    </div>
-                        
-    </div> */}
 {/* card #5 Photography */}
     <div className='bg-white text-black pb-5 m-2 w-[90%] rounded-md shadow-xl
                 md:w-[45%]
