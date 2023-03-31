@@ -115,9 +115,10 @@ function Projects() {
               Gamerverse API Site
             </AccordionHeader>
             <AccordionBody className="mx-5 mt-5 w-[90%]  overflow-y-scroll">
-              Multi-page fully responsive website built with the RAWG API to
-              allow user to search video games, see upcoming and popular games,
-              look at games by category and view individual game information.
+              I created this as a personal project to play with the RAWG API. It
+              is a multi-page fully responsive website that allows users to
+              search video games, see upcoming and popular games, look at games
+              by category and view individual game information.
               <br />
               <br />
               TechStack: React, TailwindCSS, API, Netlify
