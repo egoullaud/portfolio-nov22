@@ -26,12 +26,18 @@ function Home() {
 
       <section className="h-[100vh] text-white" id="home">
         <div className="flex flex-col justify-center items-center h-[50vh]">
-          <h1 className="text-white mb-5 font-bold text-4xl ">
+          <h1 className="text-white mb-5 font-bold text-7xl text-center mx-[5rem] tracking-wider mt-[5rem]">
             {" "}
-            You Dream, I Build.
+            Hey! Welcome!{" "}
           </h1>
-          <h2 className="mb-5 text-2xl font-Lora">
+          <h2 className="py-4 text-5xl text-center tracking-wide font-semibold leading-[1.3]">
+            The name's Lee, AKA friendlyDevBro. <br />
+            I'm here to serve all your web-related needs
+          </h2>
+          <h2 className="my-5 text-3xl font-Lora">
+            {" "}
             <Typed
+              className="ml-2"
               strings={[
                 "Front End Developer",
                 "Full Stack Developer",
@@ -42,31 +48,21 @@ function Home() {
               loop
             />{" "}
           </h2>
-          <h2 className="flex flex-row font-Lora">
-            {" "}
-            <span className="px-1">
-              <AiFillHome size={22} />
-            </span>{" "}
-            Vancouver, BC |{" "}
-            <span className="px-1">
-              <BiWorld size={22} />
-            </span>{" "}
-            US/CA citizen{" "}
-          </h2>
         </div>
         <div className="flex-col justify-center items-center text-center w-[100%]">
-          <p className="text-xl font-bold">
-            Passion. Leadership. Vision. Dedication.
-          </p>
           <div className="flex flex-row w-[100%] justify-center mx-auto mt-5">
-            <button className="mr-5 border-[1px] border-white rounded-md px-2 hover:bg-black hover:text-white hover:scale-110 hover:duration-300 hover:ease-in-out">
+            <button className="mr-5 border-[1px] text-xl border-white rounded-md px-3 py-3 hover:border-black hover:bg-black hover:bg-opacity-70 hover:text-white hover:duration-300 hover:ease-in-out">
               <a href="#about">About Me</a>
             </button>
-            <button className="ml-5 border-[1px] border-white rounded-md px-2 hover:bg-black hover:text-white hover:scale-110 hover:duration-300 hover:ease-in-out">
+            <button className="ml-5 border-[1px] text-xl border-white rounded-md px-4 py-3 hover:bg-black hover:border-black hover:bg-opacity-70 hover:text-white hover:duration-300 hover:ease-in-out">
               <a href="#projects">My Work</a>
             </button>
           </div>
+
           <div className="mt-[15vh] text-white flex flex-col justify-center items-center">
+            <p className="text-xl font-bold mb-4">
+              Keep scrolling to see my latest projects!
+            </p>
             <p className="animate-bounce">
               <AiOutlineDown />
             </p>
