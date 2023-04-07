@@ -1,51 +1,87 @@
-import React from 'react'
-import prof1 from '../assets/profile/profilepic4.jpg'
-import prof2 from '../assets/profile/profilepic3.jpg'
-import cert from '../assets/Elizabeth-Goullaud-certificate-bw.pdf'
-
+import React from "react";
+import prof1 from "../assets/profile/profilepic4.jpg";
+import prof2 from "../assets/profile/profilepic3.jpg";
+import cert from "../assets/Elizabeth-Goullaud-certificate-bw.pdf";
 
 function About() {
   return (
-    <div className='my-[4rem] text-white'>
-        <div className=' m-4 '>
-          <h1 className='text-3xl mx-4 md:mx-[4rem] text-center font-bold my-5 font-Lora'>Hi, I'm Lee</h1>
-            
-            <div className=' flex flex-col md:flex-row justify-center  md:justify-around items-center m-2 xl:mx-[10rem] lg:mx-[5rem] md:mx-[3rem]'>
-                <div className='flex justify-center items-center  w-[100%] md:w-[40%] overflow-hidden'>  
-                     <img 
-                className='w-[80%] md:hidden rounded-full my-4 md: mx-auto object-cover'
-                src={prof2} alt="profile pic" />
-                  <img 
-                className='hidden md:flex md:w-[100%] lg:w-[95%] xl:w-[65%] rounded-md my-4 object-cover'
-                src={prof1} alt="profile pic" />
-                
-                
-                </div>
-             
-                <p
-                className='md:w-[70%] flex justify-center items-center py-5 px-4'> 
-                    I am a front end developer with a background in environmental science and 6 years of experience in leadership, education, and collaborative roles. I hold a Bachelors of Science, 
-                    am a published scientific author, have traveled the world as a research scientist, and held leadership roles at every level of my career.  I grew a passion project into a full time 
-                    landscaping business that thrived on building client relationships, mentoring junior staff, designing and implementing small and large scale projects, and educating clients about 
-                    sustainability practices. I pivoted to technology in 2021 via a front end development bootcamp, and have been rigorously building experience, skills, and client lists ever since.
-                    <br /> <br />
-                    I have designed, built, and maintained high-level websites and applications using React, Next.js, API/RESTful APIs, HTML/CSS, and JavaScript. I enjoy using a multitude of libraries 
-                    including TailwindCSS, Styled Components, Material UI, and Bootstrap 5. I have experience both designing wireframes and translating wireframes into fully responsive websites. I work in
-                     alignment with Agile Principles, utilizing Kanban and Jira to stay organized.
-                   
-                </p>
-            </div>
-            <div className='flex flex-col justify-center items-center'>
-                <h1 className=' text-xl md:text-2xl mx-4 md:mx-[4rem] text-center lg:mx-[10rem]  font-Lora italic'> My Bottom Line: 
-                My background in building client relationships and executing complex projects provides me the leadership and collaborative experience to work effectively and efficiently with colleagues and clients. 
-                Combine that with my experience in product design and building fully responsive websites, I can bring valuable skills and perspectives to your team or project. 
-                </h1>
-                {/* <button className='mt-5 border-[1px] border-white rounded-md px-2 hover:bg-black hover:text-white hover:scale-110 hover:duration-300 hover:ease-in-out'>Hire Me</button>  */}
-            </div>
+    <div className="my-[4rem] text-white py-[4rem] mx-[4rem] bg-black bg-opacity-70">
+      <div className=" m-4 ">
+        <h1 className="text-3xl mx-4 md:mx-[4rem] text-center font-bold my-5 font-Lora">
+          Hi, I'm Lee
+        </h1>
+
+        <div className=" flex flex-col md:flex-row justify-center  md:justify-around items-center m-2 xl:mx-[10rem] lg:mx-[5rem] md:mx-[3rem]">
+          <div className="flex justify-center items-center  w-[100%] md:w-[40%] lg:w-[60%] overflow-hidden">
+            <img
+              className="w-[80%] md:hidden rounded-full my-4 md: mx-auto object-cover"
+              src={prof2}
+              alt="profile pic"
+            />
+            <img
+              className="hidden md:flex md:w-[100%] lg:w-[95%] xl:w-[65%] rounded-md my-4 object-cover"
+              src={prof1}
+              alt="profile pic"
+            />
+          </div>
+
+          <p className="md:w-[70%] py-5 px-4">
+            I'm a Full Stack Developer with extensive experience building and
+            maintaining websites using a variety of languages, frameworks,
+            databases, and libraries. I specialize in JavaScript, React,
+            Express, Node, Next, GraphQL, SQL, HTML, CSS, and Git, and I'm
+            proficient in working with databases such as PostgreSQL, MongoDB,
+            headless CMS(Contentful, GraphCMS), and Cloudinary.
+            <br /> <br />
+            In addition to my technical skills, I have experience with libraries
+            like Bootstrap, Apollo, Axios, GraphQL-Request, Tailwind CSS, and
+            Material UI. I'm also well-versed in debugging, documentation, code
+            review, agile, cloud platforms, UX design, Figma, web accessibility,
+            REST APIs, GitHub, Visual Studio Code, Vercel, Netlify, Slack, and
+            Linux.
+            <br /> <br />
+            When working with clients, I prioritize effective communication and
+            collaboration, and I pride myself on being highly adaptable,
+            innovative, independent, and detail-oriented. I'm a problem-solver
+            at heart and have extensive leadership experience managing projects
+            and teams of all sizes.
+            <br /> <br />
+            Currently, I'm working as a freelance Full Stack Developer, where I
+            design, build, deploy, and maintain websites for clients using
+            Figma, React, MERN, PostgreSQL, Next, GraphQL, headless CMS, and
+            TailwindCSS. Some of my recent projects include
+            <a className="font-bold mx-1" href="https://sixpo.ca/">
+              SIXpo
+            </a>{" "}
+            and{" "}
+            <a
+              className="font-bold mx-1"
+              href="https://rainegauthier.vercel.app/"
+            >
+              Raine Gauthier Photography.
+            </a>{" "}
+            <br /> <br />
+            Prior to my career in web development, I owned and operated Flowers
+            By Elizabeth, where I developed and managed 350+ projects and 30+
+            long-term contracts. During COVID, I grew my client list by 40%, and
+            I hired, trained, and mentored a team of 3 junior gardeners.
+          </p>
         </div>
-      
+        <div className="flex flex-col justify-center items-center">
+          <h1 className=" text-xl md:text-2xl mx-4 md:mx-[4rem] text-center lg:mx-[10rem]  font-Lora italic">
+            {" "}
+            With a deep passion for web development and a commitment to
+            delivering top-notch solutions, I am a Full Stack Developer with
+            expertise in the latest modern technologies like React, Next,
+            GraphQL, and Node. Whether you're looking for a custom website, a
+            responsive user interface, or a robust backend solution, I'm here to
+            help you achieve your goals and bring your ideas to life.
+          </h1>
+          {/* <button className='mt-5 border-[1px] border-white rounded-md px-2 hover:bg-black hover:text-white hover:scale-110 hover:duration-300 hover:ease-in-out'>Hire Me</button>  */}
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;

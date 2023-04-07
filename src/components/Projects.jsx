@@ -43,7 +43,7 @@ function Projects() {
     >
       {/* sixpo */}
       <div
-        className="bg-white text-black pb-5 m-2 w-[90%] rounded-md shadow-xl
+        className="bg-white text-black pb-5 m-2 w-[90%] rounded-md shadow-xl 
                 md:w-[45%]
                 xl:w-[30%]"
       >
@@ -55,12 +55,16 @@ function Projects() {
         </div>
         {/* ACCORDION  */}
         <Fragment>
-          <Accordion open={open === 5} icon={<Icon id={5} open={open} />}>
+          <Accordion
+            open={open === 5}
+            icon={<Icon id={5} open={open} />}
+            className="h-auto"
+          >
             <AccordionHeader
               onClick={() => handleOpen(5)}
               className="ml-6 w-[90%]"
             >
-              Sixpo.ca
+              Sixpo: Sexuality, Inclusion, Exploration
             </AccordionHeader>
             <AccordionBody className="mx-5 mt-5 w-[90%] overflow-y-scroll">
               Fullstack website for a charity event educating disabled folks
@@ -107,9 +111,9 @@ function Projects() {
         </div>
         {/* ACCORDION  */}
         <Fragment>
-          <Accordion open={open === 5} icon={<Icon id={1} open={open} />}>
+          <Accordion open={open === 6} icon={<Icon id={6} open={open} />}>
             <AccordionHeader
-              onClick={() => handleOpen(5)}
+              onClick={() => handleOpen(6)}
               className="ml-6 w-[90%]"
             >
               Raine Gauthier Photography
