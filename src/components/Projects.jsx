@@ -89,6 +89,59 @@ function Projects() {
           </a>
         </div>
       </div>
+      {/* card #5 Photography */}
+      <div
+        className="bg-white text-black pb-5 m-2 w-[90%] rounded-md shadow-xl
+                md:w-[45%]
+                xl:w-[30%]"
+      >
+        {/* image  */}
+        <div className="m-2 rounded-lg">
+          <a target="_blank" href="https://rainegauthier.vercel.app/">
+            <img
+              className="w-[100%] rounded-md"
+              src={RaineDesk}
+              alt="project"
+            />
+          </a>
+        </div>
+        {/* ACCORDION  */}
+        <Fragment>
+          <Accordion open={open === 5} icon={<Icon id={1} open={open} />}>
+            <AccordionHeader
+              onClick={() => handleOpen(5)}
+              className="ml-6 w-[90%]"
+            >
+              Raine Gauthier Photography
+            </AccordionHeader>
+            <AccordionBody className="mx-5 mt-5 w-[90%] overflow-y-scroll">
+              Photography Gallery website featuring gallery, about, and contact
+              pages. I designed and built with React, Next, TailwindCSS, and
+              GraphQL with a GraphCMS backend.
+              <br />
+              <br />
+              TechStack: React, Next, TailwindCSS GraphQL, GraphCMS, Vercel
+            </AccordionBody>
+          </Accordion>
+        </Fragment>
+
+        {/* buttons section      */}
+        <div className="flex flex-row  justify-around mx-auto pt-5 w-[50%]">
+          <a target="_blank" href="https://rainegauthier.vercel.app/">
+            <button className="border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white hover:duration-300 hover:ease-in-out">
+              Live Site
+            </button>
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/egoullaud/photography-next"
+          >
+            <button className="border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white  hover:duration-300 hover:ease-in-out">
+              Github
+            </button>
+          </a>
+        </div>
+      </div>
       {/* card #1 Gamerverse */}
       <div
         className="bg-white text-black pb-5 m-2 w-[90%] rounded-md shadow-xl
@@ -198,7 +251,7 @@ function Projects() {
       >
         {/* image  */}
         <div className="m-2 rounded-lg">
-          <a target="_blank" href="https://github.com/kalikokalikova/adventure">
+          <a target="_blank" href="https://strolls.netlify.app/">
             <img
               className="w-[100%] rounded-md"
               src={strollsDesk}
@@ -237,58 +290,6 @@ function Projects() {
             </button>
           </a>
           <a target="_blank" href="https://github.com/kalikokalikova/adventure">
-            <button className="border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white  hover:duration-300 hover:ease-in-out">
-              Github
-            </button>
-          </a>
-        </div>
-      </div>
-
-      {/* card #5 Photography */}
-      <div
-        className="bg-white text-black pb-5 m-2 w-[90%] rounded-md shadow-xl
-                md:w-[45%]
-                xl:w-[30%]"
-      >
-        {/* image  */}
-        <div className="m-2 rounded-lg">
-          <a target="_blank" href="http://rainegauthier.com/">
-            <img
-              className="w-[100%] rounded-md"
-              src={RaineDesk}
-              alt="project"
-            />
-          </a>
-        </div>
-        {/* ACCORDION  */}
-        <Fragment>
-          <Accordion open={open === 5} icon={<Icon id={1} open={open} />}>
-            <AccordionHeader
-              onClick={() => handleOpen(5)}
-              className="ml-6 w-[90%]"
-            >
-              Raine Gauthier Photography
-            </AccordionHeader>
-            <AccordionBody className="mx-5 mt-5 w-[90%] overflow-y-scroll">
-              A ten-page photography gallery site built by hand for a local
-              artist. The site is fully responsive and features a modal pop-up
-              for easy photo viewing, contact forms, and hover effects over
-              gallery options and buttons.
-              <br />
-              <br />
-              TechStack: HTML, CSS, JavaScript
-            </AccordionBody>
-          </Accordion>
-        </Fragment>
-
-        {/* buttons section      */}
-        <div className="flex flex-row  justify-around mx-auto pt-5 w-[50%]">
-          <a target="_blank" href="http://rainegauthier.com/">
-            <button className="border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white hover:duration-300 hover:ease-in-out">
-              Live Site
-            </button>
-          </a>
-          <a target="_blank" href="github.com">
             <button className="border-[1px] border-black rounded-md px-2 hover:bg-black hover:text-white  hover:duration-300 hover:ease-in-out">
               Github
             </button>
