@@ -24,17 +24,17 @@ function Home() {
         type="video/mp4"
       ></video>
 
-      <section className="h-[100vh] text-white" id="home">
-        <div className="flex flex-col justify-center items-center h-[50vh]">
-          <h1 className="text-white mb-5 font-bold text-7xl text-center mx-[5rem] tracking-wider mt-[5rem]">
+      <section className=" text-white mb-[4rem]" id="home">
+        <div className="flex flex-col justify-center items-center">
+          <h1 className="text-white mb-5 font-bold text-5xl lg:text-7xl text-center mx-[5rem] tracking-wider mt-[5rem] md:mt-[10rem]">
             {" "}
             Hey! Welcome!{" "}
           </h1>
-          <h2 className="py-4 text-5xl text-center tracking-wide font-semibold leading-[1.3]">
+          <h2 className="py-4 text-3xl lg:text-5xl text-center tracking-wide font-semibold leading-[1.3]">
             The name's Lee, AKA friendlyDevBro. <br />
             I'm here to serve all your web-related needs
           </h2>
-          <h2 className="my-5 text-3xl font-Lora">
+          <h2 className="my-5 text-xl lg:text-3xl font-Lora">
             {" "}
             <Typed
               className="ml-2"
