@@ -237,7 +237,7 @@ function Projects() {
               </button>
             </a>
           </div>
-          <p className="px-4 text-center tracking-wider w-[90%]">
+          <p className="px-6 text-center tracking-wide w-[90%]">
             This web app was built during the Girl Develop It Hackathon November
             16-19 2022 and won Second Place. The concept for the app was to make
             walking fun and interactive by pairing walking with the thrill of
