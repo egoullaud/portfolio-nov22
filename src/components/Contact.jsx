@@ -2,8 +2,8 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="mx-[4rem] flex flex-col items-center bg-black bg-opacity-70">
-      <h1 className="text-center text-white font-bold text-3xl mt-[4rem] font-Lora">
+    <div className="mx-[1rem] md:mx-[4rem] flex flex-col items-center bg-black bg-opacity-70">
+      <h1 className="text-center text-white font-bold text-3xl mt-[2rem] font-Lora">
         Contact Me
       </h1>
 
