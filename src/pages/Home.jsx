@@ -11,7 +11,7 @@ import Typed from "react-typed";
 
 function Home() {
   return (
-    <div className="bg-fixed py-10 font-Poppins">
+    <div className="bg-fixed py-10 font-Poppins scroll-smooth">
       <div className="fixed w-auto min-w-full min-h-full max-x-none max-y-none z-[-5] bg-black bg-opacity-30">
         {" "}
       </div>
