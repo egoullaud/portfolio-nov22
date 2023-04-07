@@ -25,12 +25,13 @@ function About() {
           </div>
 
           <p className="md:w-[70%] py-5 tracking-wide">
-            I'm a Full Stack Developer with extensive experience building and
-            maintaining websites using a variety of languages, frameworks,
-            databases, and libraries. I specialize in JavaScript, React,
-            Express, Node, Next, GraphQL, SQL, HTML, CSS, and Git, and I'm
-            proficient in working with databases such as PostgreSQL, MongoDB,
-            headless CMS(Contentful, GraphCMS), and Cloudinary.
+            I'm a Full Stack Developer in Vancouver, BC with extensive
+            experience building and maintaining websites using a variety of
+            languages, frameworks, databases, and libraries. I specialize in
+            JavaScript, React, Express, Node, Next, GraphQL, SQL, HTML, CSS, and
+            Git, and I'm proficient in working with databases such as
+            PostgreSQL, MongoDB, headless CMS(Contentful, GraphCMS), and
+            Cloudinary.
             <br /> <br />
             In addition to my technical skills, I have experience with libraries
             like Bootstrap, Apollo, Axios, GraphQL-Request, Tailwind CSS, and
@@ -60,10 +61,12 @@ function About() {
               Raine Gauthier Photography.
             </a>{" "}
             <br /> <br />
-            Prior to my career in web development, I owned and operated Flowers
-            By Elizabeth, where I developed and managed 350+ projects and 30+
-            long-term contracts. During COVID, I grew my client list by 40%, and
-            I hired, trained, and mentored a team of 3 junior gardeners.
+            Fun Fact: Prior to my work as a web developer, I was an entrepreneur
+            in the environmental industry! I owned and operated Flowers By
+            Elizabeth, a gardening and landscape company. I designed and
+            maintained gardens and farms all over Vancouver, and the Sunshine
+            Coast, BC. I also hold a Bachelors of Science from the University of
+            British Columbia, and am published in the Journal of Ornithology.
           </p>
         </div>
         <div className="flex flex-col justify-center items-center">
