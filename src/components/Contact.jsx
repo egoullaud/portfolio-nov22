@@ -2,15 +2,15 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="mx-4 md:mx-[10rem] lg:mx-[30rem] p-[4rem] bg-black bg-opacity-70">
-      <h1 className="text-center text-white font-bold text-2xl mt-[4rem] font-Lora">
+    <div className="mx-[4rem] flex flex-col items-center bg-black bg-opacity-70">
+      <h1 className="text-center text-white font-bold text-3xl mt-[4rem] font-Lora">
         Contact Me
       </h1>
 
       <form
         action="https://formsubmit.co/aa9ace4fce53046497cccee0c34e5c3f "
         method="POST"
-        className="space-y-8"
+        className="space-y-8 md:px-[4rem] px-[2rem] flex flex-col w-[90%] lg:w-[60%]"
       >
         <input type="text" name="_honey" className="hidden" />
         <input type="hidden" name="_captcha" value="false" />
@@ -68,7 +68,7 @@ function Contact() {
         </div>
         <button
           type="submit"
-          className="mt-5 ml-4 border-[1px] text-white border-white rounded-md px-2 hover:bg-black hover:text-white hover:scale-110 hover:duration-300 hover:ease-in-out"
+          className="mt-5 mx-auto border-[1px] text-white border-white rounded-md px-3 py-2 hover:bg-black hover:text-white hover:scale-110 hover:duration-300 hover:ease-in-out"
         >
           Send message
         </button>
