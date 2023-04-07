@@ -9,7 +9,7 @@ import sixpo from "../assets/sixpo.jpg";
 function Projects() {
   return (
     <div
-      className="flex flex-wrap justify-center items-start text-white bg-black bg-opacity-70 py-[4rem] mx-[4rem]
+      className="flex flex-wrap justify-center items-start text-white bg-black bg-opacity-70 py-[1rem] mx-[1rem] lg:mx-[4rem]
     "
     >
       {/* sixpo */}
@@ -34,7 +34,7 @@ function Projects() {
             Sixpo: Sexuality, Inclusion, Exploration
           </h1>
           {/* buttons section      */}
-          <div className="flex flex-row  justify-around mx-auto py-2 w-[50%]">
+          <div className="flex flex-row  justify-around lg:mx-auto mx-2 py-4 w-[80%] lg:w-[50%] ">
             <a target="_blank" href="https://sixpo.ca/">
               <button className=" tracking-wide border-[1px] border-white rounded-md px-3 py-1 hover:bg-white hover:text-black hover:duration-300 hover:ease-in-out">
                 Live Site
@@ -46,7 +46,7 @@ function Projects() {
               </button>
             </a>
           </div>
-          <p className="px-4 text-center tracking-wider w-[90%]">
+          <p className="tracking-wide text-center">
             Fullstack website for a charity event educating disabled folks about
             sexuality and wellness. I designed the site with Figma, built the
             front end with React, Next, and TailwindCSS, and set up a backend
@@ -75,11 +75,11 @@ function Projects() {
         </div>
 
         <div className="flex flex-col items-center">
-          <h1 className="text-2xl pt-2 tracking-wide font-semibold">
+          <h1 className="text-2xl pt-2 tracking-wide font-semibold text-center">
             Raine Gauthier Photography
           </h1>
           {/* buttons section      */}
-          <div className="flex flex-row  justify-around mx-auto py-2 w-[50%]">
+          <div className="flex flex-row  justify-around lg:mx-auto mx-2 py-4 w-[80%] lg:w-[50%] ">
             <a target="_blank" href="https://rainegauthier.vercel.app/">
               <button className=" tracking-wide border-[1px] border-white rounded-md px-3 py-1 hover:bg-white hover:text-black hover:duration-300 hover:ease-in-out">
                 Live Site
@@ -94,7 +94,7 @@ function Projects() {
               </button>
             </a>
           </div>
-          <p className="px-4 text-center tracking-wider w-[90%]">
+          <p className="tracking-wide text-center">
             Photography Gallery website featuring gallery, about, and contact
             pages. I designed and built with React, Next, TailwindCSS, and
             GraphQL with a GraphCMS backend.
@@ -127,7 +127,7 @@ function Projects() {
             Gamerverse Personal Project
           </h1>
           {/* buttons section      */}
-          <div className="flex flex-row  justify-around mx-auto py-2 w-[50%]">
+          <div className="flex flex-row  justify-around lg:mx-auto mx-2 py-4 w-[80%] lg:w-[50%] ">
             <a target="_blank" href="https://gamerverse.netlify.app/">
               <button className=" tracking-wide border-[1px] border-white rounded-md px-3 py-1 hover:bg-white hover:text-black hover:duration-300 hover:ease-in-out">
                 Live Site
@@ -139,7 +139,7 @@ function Projects() {
               </button>
             </a>
           </div>
-          <p className="px-4 text-center tracking-wider w-[90%]">
+          <p className="tracking-wide text-center">
             I created this as a personal project to play with the RAWG API. It
             is a multi-page fully responsive website that allows users to search
             video games, see upcoming and popular games, look at games by
@@ -173,7 +173,7 @@ function Projects() {
             Grandma Finch's Maple Syrup
           </h1>
           {/* buttons section      */}
-          <div className="flex flex-row  justify-around mx-auto py-2 w-[50%]">
+          <div className="flex flex-row  justify-around lg:mx-auto mx-2 py-4 w-[80%] lg:w-[50%] ">
             <a
               target="_blank"
               href="https://grandmafinchmaplesyrup.netlify.app/"
@@ -188,7 +188,7 @@ function Projects() {
               </button>
             </a>
           </div>
-          <p className="px-4 text-center tracking-wider w-[90%]">
+          <p className="tracking-wide text-center">
             This site was built as a prototype for a mom and pop maple syrup
             business. The client's main goal was to have a site for customers to
             view their products, learn about the company's story, and contact
@@ -222,7 +222,7 @@ function Projects() {
             Strolls: a Walking Adventure
           </h1>
           {/* buttons section      */}
-          <div className="flex flex-row  justify-around mx-auto py-2 w-[50%]">
+          <div className="flex flex-row  justify-around lg:mx-auto mx-2 py-4 w-[80%] lg:w-[50%] ">
             <a target="_blank" href="https://strolls.netlify.app/">
               <button className=" tracking-wide border-[1px] border-white rounded-md px-3 py-1 hover:bg-white hover:text-black hover:duration-300 hover:ease-in-out">
                 Live Site
@@ -237,7 +237,7 @@ function Projects() {
               </button>
             </a>
           </div>
-          <p className="px-6 text-center tracking-wide w-[90%]">
+          <p className="tracking-wide text-center">
             This web app was built during the Girl Develop It Hackathon November
             16-19 2022 and won Second Place. The concept for the app was to make
             walking fun and interactive by pairing walking with the thrill of
