@@ -2,9 +2,9 @@ import React from "react";
 
 function Testimonials() {
   return (
-    <div className="text-white py-[4rem] mx-[8rem] bg-black bg-opacity-70">
+    <div className="text-white py-[4rem] mx-[4rem] bg-black bg-opacity-70">
       <div>
-        <h1 className="text-center font-bold text-3xl pb-5 font-Lora">
+        <h1 className="text-center tracking-wider font-bold text-3xl pb-5 font-Lora">
           Testimonials
         </h1>
       </div>
