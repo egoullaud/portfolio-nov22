@@ -7,25 +7,24 @@ function About() {
   return (
     <div className="my-[4rem] text-white py-[4rem] mx-[4rem] bg-black bg-opacity-70">
       <div className=" m-4 ">
-        <h1 className="text-3xl mx-4 md:mx-[4rem] text-center font-bold my-5 font-Lora">
-          Hi, I'm Lee
-        </h1>
-
         <div className=" flex flex-col md:flex-row justify-center  md:justify-around items-center m-2 xl:mx-[10rem] lg:mx-[5rem] md:mx-[3rem]">
-          <div className="flex justify-center items-center  w-[100%] md:w-[40%] lg:w-[60%] overflow-hidden">
+          <div className="flex flex-col items-center  w-[100%] md:w-[40%] lg:w-[60%] overflow-hidden">
+            <h1 className="text-5xl mx-4 md:mx-[4rem] text-center font-bold my-5 font-Lora">
+              Hiya, I'm Lee!
+            </h1>
             <img
               className="w-[80%] md:hidden rounded-full my-4 md: mx-auto object-cover"
               src={prof2}
               alt="profile pic"
             />
             <img
-              className="hidden md:flex md:w-[100%] lg:w-[95%] xl:w-[65%] rounded-md my-4 object-cover"
+              className="hidden md:flex md:w-[100%] lg:w-[95%] xl:w-[85%] rounded-md my-4 object-cover"
               src={prof1}
               alt="profile pic"
             />
           </div>
 
-          <p className="md:w-[70%] py-5 px-4">
+          <p className="md:w-[70%] py-5 tracking-wide">
             I'm a Full Stack Developer with extensive experience building and
             maintaining websites using a variety of languages, frameworks,
             databases, and libraries. I specialize in JavaScript, React,
@@ -68,7 +67,7 @@ function About() {
           </p>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <h1 className=" text-xl md:text-2xl mx-4 md:mx-[4rem] text-center lg:mx-[10rem]  font-Lora italic">
+          <h1 className=" text-xl md:text-2xl mx-4 md:mx-[4rem] text-center lg:mx-[10rem] tracking-wide font-Lora italic">
             {" "}
             With a deep passion for web development and a commitment to
             delivering top-notch solutions, I am a Full Stack Developer with
@@ -77,7 +76,6 @@ function About() {
             responsive user interface, or a robust backend solution, I'm here to
             help you achieve your goals and bring your ideas to life.
           </h1>
-          {/* <button className='mt-5 border-[1px] border-white rounded-md px-2 hover:bg-black hover:text-white hover:scale-110 hover:duration-300 hover:ease-in-out'>Hire Me</button>  */}
         </div>
       </div>
     </div>
